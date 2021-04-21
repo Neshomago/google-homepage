@@ -1,11 +1,37 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
 
 a:link{
     text-decoration: none;
-    color:#000;
 }
 a:hover{
     text-decoration: underline;
+}
+
+.lnkclr, ul>li>a{
+    color: rgb(174, 174, 174);
+}
+
+.btn_buscar {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding: 8px;
+    font-size: 14px;
+}
+
+.btn_buscar:hover {
+    background-color: rgb(252, 252, 252);
+    border: 1px solid rgb(201, 199, 199);
+    border-radius: 5px;
+    box-shadow: 0px 0.5px 1px rgb(221, 221, 221);
+}
+
+li {
+    list-style: none;
+}
+
+.bargray{
+    background-color: rgb(201, 199, 199);
 }
