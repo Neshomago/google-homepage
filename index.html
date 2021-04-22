@@ -5,74 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link  rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
     <title>Google</title>
 </head>
 <body>
-    <div id="top-nav">
-        <ul>
-            <li>
+    <div id="top-nav" class="flex-container">
+        <div class="menu">
+            <div class="paddivtop">
                 <a  href="#">Gmail</a>
-            </li>
-            <li>
+            </div>
+            <div class="paddivtop">
                 <a href="#">Imágenes</a>
-            </li>
-            <li>
-                <a href="#">Google Apps</a>
-            </li>
-            <li>
+            </div>
+            <div class="paddivtop">
+                <a href="#"><span class="material-icons">
+                    apps
+                    </span></a>
+            </div>
+            <div class="paddiv">
                 <button>Iniciar sesión</button>
-            </li>
-        </ul>
-    </div>
-    <div id="search-bar"> 
-        <div>
-            <div>
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="" srcset="">
-            </div>
-            <div>
-                <input type="text">
-            </div>
-            <div >
-                <div>
-                    <button class="btn_buscar">Buscar con Google</button>
-                </div>
-                <div>
-                    <button class="btn_buscar">Me siento con suerte</button>
-                </div>
             </div>
         </div>
     </div>
-    <footer>
-        <div>Ecuador</div>
-        <div>
+    <div id="search-bar" class="content-center"> 
+            <div class="logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="" srcset="">
+            </div>
+            <div class="searchalign">
+                <input type="text">
+            </div>
+            <div class="buttons">
+                    <button class="btn_buscar">Buscar con Google</button>
+                    <button class="btn_buscar">Me siento con suerte</button>
+            </div>
+    </div>
+    <footer class="footer">
+        <div class="menufoot">
+            <div class="menu">
+                Ecuador
+            </div>
+        </div>
+        <div class="menufoot">
             <div>
-                <ul>
-                    <li>
+                <div class="menu">
+                    <div class="paddivbot">
                         <a href="#">Sobre Google</a>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="paddivbot">
                         <a href="#">Publicidad</a>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="paddivbot">
                         <a href="#">Negocios</a>
-                    </li>
-                    <li>
-                        <a href="#">Còmo funciona la Búsqueda</a>
-                    </li>
-                </ul>
+                    </div>
+                    <div class="paddivbot">
+                        <a href="#">Cómo funciona la Búsqueda</a>
+                    </div>
+                </div>
             </div>
             <div>
-                <ul>
-                    <li>
+                <div class="menu">
+                    <div class="paddivbot">
                         <a href="#">Privacidad</a>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="paddivbot">
                         <a href="#">Condiciones</a>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="paddivbot">
                         <a href="#">Preferencias</a>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </div>
 

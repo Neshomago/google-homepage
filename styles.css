@@ -1,6 +1,74 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
+    margin: 0px;
+    height: 100%;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.flexalign{
+    align-items: center;
+}
+
+.logo{
+    width: auto;
+    margin: auto;
+}
+
+input[type=text]{
+    width: 582px;
+    padding: 12px 20px;
+    margin: 8px 0px;
+}
+
+.gglbr{
+width: 60%;
+}
+
+.content-center{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.searchalign{
+    margin: auto;
+}
+
+.buttons{
+    margin: auto;
+    padding: 25px;
+    justify-content: space-evenly;
+}
+
+.menufoot{
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 0px;
+    padding: 8px 10px 8px 10px;
+}
+
+.paddivtop{
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+}
+
+.paddivbot{
+    padding: 0px 15px 0px 15px;
+    margin: 0px;
 }
 
 a:link{
@@ -10,8 +78,8 @@ a:hover{
     text-decoration: underline;
 }
 
-.lnkclr, ul>li>a{
-    color: rgb(174, 174, 174);
+.lnkclr, a{
+    color: rgb(130, 130, 130);
 }
 
 .btn_buscar {
@@ -26,10 +94,6 @@ a:hover{
     border: 1px solid rgb(201, 199, 199);
     border-radius: 5px;
     box-shadow: 0px 0.5px 1px rgb(221, 221, 221);
-}
-
-li {
-    list-style: none;
 }
 
 .bargray{
