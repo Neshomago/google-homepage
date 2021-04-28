@@ -4,10 +4,14 @@ body{
     margin: 0px;
     height: 100%;
 }
-
-.flex-container{
+.container{
     display: flex;
-    justify-content: flex-end;    
+    flex-direction: column;
+    
+}
+.flex-top-container{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .menu{
