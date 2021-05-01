@@ -40,8 +40,16 @@ input[type=text]{
 width: 582px;
 }
 
+.busca{
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-color: darkgrey;
+}
+
 input{
-    border: 0.5px solid gray;
+    border: none;
 }
 
 .content-center{
@@ -51,6 +59,10 @@ input{
     justify-content: center;
     align-content: center;
     flex-grow: 3;
+}
+
+.lupa{
+    position: relative;
 }
 
 .searchalign{
@@ -65,8 +77,13 @@ input{
 
 .thefooter{
     height: 120px;
-    flex-grow: 1;
-    align-items: flex-end;
+    width: 100%;
+    /* flex-grow: 1;
+    align-items: flex-end; */
+    position: fixed;
+    bottom: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .menufoot{
@@ -75,9 +92,9 @@ input{
     flex-direction: row;
     justify-content: space-between;
     font-size: 14px;
-    margin: 0px;
+    margin-bottom: 0px;
     padding: 8px 10px 8px 10px;
-    position: fixed;
+    bottom: 0px;
 }
 
 .paddivtop{
