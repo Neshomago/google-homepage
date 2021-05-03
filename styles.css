@@ -30,6 +30,18 @@ body{
     margin: auto;
 }
 
+.pic{
+    border-radius: 50%;
+    align-self: center;
+    border: 3px solid white;
+    -webkit-transition: border 0.2s;
+}
+
+.pic:hover{
+    border: 3px solid rgb(221, 221, 221);
+    -webkit-transition: border 0.2s;
+}
+
 input[type=text]{
     width: 582px;
     padding: 12px 20px;
@@ -97,14 +109,19 @@ input{
     bottom: 0px;
 }
 
-.paddivtop{
+.alignself{
+    align-self: center;
+}
+.paddivtop > a{
+    color: black;
     padding: 0px 10px 0px 10px;
     margin: 0px;
 }
 
-.paddivbot{
+.paddivbot > a{
     padding: 0px 15px 0px 15px;
     margin: 0px;
+    color: rgb(130, 130, 130);
 }
 
 a:link{
@@ -114,7 +131,7 @@ a:hover{
     text-decoration: underline;
 }
 
-.lnkclr, a{
+.lnkclr{
     color: rgb(130, 130, 130);
 }
 
@@ -134,4 +151,8 @@ a:hover{
 
 .bargray{
     background-color: rgb(201, 199, 199);
+}
+
+@media screen {
+    
 }
