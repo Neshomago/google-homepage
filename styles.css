@@ -58,7 +58,8 @@ input[type=text]{
 }
 
 .gglbr{
-width: 582px;
+width: 80%;
+border: none;
 }
 
 .busca{
@@ -84,6 +85,7 @@ input{
 
 .lupa{
     position: relative;
+    padding-left: 30px;
 }
 
 .searchalign{
@@ -95,6 +97,11 @@ input{
     padding: 25px;
     justify-content: space-evenly;
 }
+
+#barrabusca {
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 30px;
+    }
 
 .thefooter{
     height: 120px;
