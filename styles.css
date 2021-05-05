@@ -51,10 +51,12 @@ body{
 }
 
 input[type=text]{
-    width: 582px;
-    padding: 12px 20px;
+    position: relative;
+    width: 550px;
+    padding: 8px 10px;
     margin: 8px 0px;
     appearance: none;
+    outline: 0;
 }
 
 .gglbr{
@@ -75,7 +77,7 @@ input{
 }
 
 .content-center{
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,6 +92,7 @@ input{
 
 .searchalign{
     margin: auto;
+    margin-top: 25px;
 }
 
 .buttons{
