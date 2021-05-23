@@ -1,5 +1,6 @@
 body, *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
     font-size: 13px;
@@ -8,6 +9,8 @@ body, *{
 .container{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 100%;
 }
 
 /*Barra de menu superior*/
@@ -62,6 +65,17 @@ body, *{
  margin: auto;
 }
 
+.buscaelement{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 580px;
+    padding: 1rem;
+    padding-right: 1.5rem;
+    border: 0.1px solid;
+    border-radius: 30px;
+}
+
 .buttons{
     margin: auto;
     padding: 25px;
@@ -69,82 +83,51 @@ body, *{
 }
 
 .btn_buscar {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgb(247, 247, 247);
     border: 1px solid rgba(255, 255, 255, 0);
     padding: 8px;
     font-size: 14px;
 }
 
 .btn_buscar:hover {
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(247, 247, 247);
     border: 1px solid rgb(201, 199, 199);
     border-radius: 5px;
     box-shadow: 0px 0.5px 1px rgb(221, 221, 221);
 }
 
-.barraabajo{
 
+/*Parte inferior y Footer*/
+.empty{
+    display: flex;
+}
+.barraabajo{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: rgba(0, 0, 0, 0.54);
 }
 
-.footer{
+.menufoot{
+}
 
+.country{
+
+}
+.footer{
 }
 
 @media (max-width:320){
-
+ .buscaelement{
+     width: 80%;
+ }
 }
 
-/* body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    margin: 0px;
-    height: 100%;
-    width: 100%;
-}
-.container{
-    display: flex;
-    flex-direction: column;
-}
-.flex-top-container{
-    display: flex;
-    justify-content: flex-end;
-    flex-grow: 1;
-}
-
-.menu{
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-}
-
-.flexalign{
-    align-items: center;
-}
-
-.logo{
-    width: auto;
-    margin: auto;
-}
-
-.buttonApps>a{
-    width: 32px;
-    height: 32px;
-    color: gray;
-    border-radius: 50%;
-    background: rgb(221, 221, 221);
-}
-
-.pic{
-    border-radius: 50%;
-    align-self: center;
-    border: 3px solid white;
-    -webkit-transition: border 0.2s;
-}
-
-.pic:hover{
-    border: 3px solid rgb(221, 221, 221);
-    -webkit-transition: border 0.2s;
-}
+/* 
 
 input[type=text]{
     position: relative;
