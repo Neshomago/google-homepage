@@ -13,19 +13,22 @@
 </head>
 <body>
     <div class="container">
-        <header id="top-nav" class="flex-top-container">
+        <div id="top-nav" class="top-nav">
             <div class="menu">
-                <div class="paddivtop alignself">
+                <div class="item-menu">
                     <a  href="#">Gmail</a>
                 </div>
-                <div class="paddivtop alignself">
+                <div class="item-menu">
                     <a href="#">Imágenes</a>
                 </div>
-                <div class="paddivtop alignself">
-                    <div class="buttonApps pic">
-                        <a href="#"><span class="material-icons">
-                            apps
-                        </span></a>
+                <div class="item-menu">
+                    <div class="buttonApps">
+                        <a href="#">
+                            <div style="width: 32px;height: 32px;">
+                                <img class="pic" src="apps.png" alt="Google apps menu">
+                            </div>
+                            <!-- <span class="material-icons">apps</span> -->
+                        </a>
                     </div>
                 </div>
                 <div class="paddiv">
@@ -33,59 +36,59 @@
                     <!-- <button>Iniciar sesión</button> -->
                 </div>
             </div>
-        </header>
-        <div class="searchalign">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="" srcset="">
         </div>
-        <div id="barrabusca" class="busca searchalign lupa">
-            <span class="icon"><i class="fa fa-search"></i></span>
-            <input type="text" class="gglbr">
-        </div>
-        <div class="searchalign">
-            <button class="btn_buscar">Buscar con Google</button>
-            <button class="btn_buscar">Me siento con suerte</button>
-        </div>
-        <!-- <div id="search-bar" class="content-center"> 
-        </div> -->
-        <!-- <div class="thefooter"> -->         
-            <footer class="thefooter">
-                <div class="menufoot" style="border-bottom:1px solid rgb(189, 189, 189);">
-                    <div class="menu">
-                        Ecuador
+        <div id="main" class="barracentral">
+            <div class="searchalign">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="" srcset="">
+            </div>
+            <div id="barrabusca" class="busca searchalign lupa">
+                <span class="icon"><i class="fa fa-search"></i></span>
+                <input type="text" class="gglbr">
+            </div>
+            <div class="searchalign">
+                <button class="btn_buscar">Buscar con Google</button>
+                <button class="btn_buscar">Me siento con suerte</button>
+            </div>
+
+        </div>    
+        <footer class="thefooter">
+            <div style="border-bottom:1px solid rgb(189, 189, 189);">
+                <div >
+                    Ecuador
+                </div>
+            </div>
+            <div >
+                <div>
+                    <div>
+                        <div class="paddivbot">
+                            <a href="#">Sobre Google</a>
+                        </div>
+                        <div class="paddivbot">
+                            <a href="#">Publicidad</a>
+                        </div>
+                        <div class="paddivbot">
+                            <a href="#">Negocios</a>
+                        </div>
+                        <div class="paddivbot">
+                            <a href="#">Cómo funciona la Búsqueda</a>
+                        </div>
                     </div>
                 </div>
-                <div class="menufoot">
+                <div>
                     <div>
-                        <div class="menu">
-                            <div class="paddivbot">
-                                <a href="#">Sobre Google</a>
-                            </div>
-                            <div class="paddivbot">
-                                <a href="#">Publicidad</a>
-                            </div>
-                            <div class="paddivbot">
-                                <a href="#">Negocios</a>
-                            </div>
-                            <div class="paddivbot">
-                                <a href="#">Cómo funciona la Búsqueda</a>
-                            </div>
+                        <div class="paddivbot">
+                            <a href="#">Privacidad</a>
+                        </div>
+                        <div class="paddivbot">
+                            <a href="#">Condiciones</a>
+                        </div>
+                        <div class="paddivbot">
+                            <a href="#">Preferencias</a>
                         </div>
                     </div>
-                    <div>
-                        <div class="menu">
-                            <div class="paddivbot">
-                                <a href="#">Privacidad</a>
-                            </div>
-                            <div class="paddivbot">
-                                <a href="#">Condiciones</a>
-                            </div>
-                            <div class="paddivbot">
-                                <a href="#">Preferencias</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>        
-            </footer>
+                </div>
+            </div>        
+        </footer>
         <!-- </div> -->
     </div>
 </body>
